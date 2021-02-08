@@ -15,7 +15,9 @@
     display: grid;
 }
 
-#reset-btn {
-    height: 5%;
-    width: 10%;
+#btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 5rem;
 }
